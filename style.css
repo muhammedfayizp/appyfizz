@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+.navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background-color:#0a0b27;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 15px;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    cursor: pointer;
+    width: 119px;
+    margin-top: 6px  
+}
+.navbar ul li {
+    font-family: Meriva, sans-serif;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #fff;
+    display: table-cell;
+    padding: 20px;
+    text-transform: capitalize;
+    transition: all .5s ease-in;
+    cursor: pointer;
+   
+}
+.navbar ul li:hover{
+    color: red;
+
+}
+.navbar ul li arrow{
+    padding-left: 10px;
+}
+
+.img1{
+    width: 100%;
+}
+.image2main{
+    width: 100%;
+    height:900px;
+    display: flex;
+}
+.image2{ 
+    width: 50%;
+    height: 600px;
+    background-color: black;  
+}
+.img2{
+    margin-left: 36%;
+    margin-top: 40px;
+    width: 190px;
+    height: 525px;
+    position: relative;
+    z-index: 0;
+}
+.textim{
+    width: 600px;
+    font-size: 40px;
+    position: absolute;
+    padding-left: 180px;
+    color: #fff;
+    padding-top: 200px;
+}
+.textim h2{
+    text-align: center;
+}
+.text2{
+   margin-top: 155px;
+   margin-left: 120px;
+
+   font-family: Meriva, sans-serif;
+   font-size: 24px;
+   line-height: 1.2;
+   text-align: left;
+}
+.img3{
+    width: 100%;
+    height: 80%;
+
+}
+
+.aboutmain{
+    width: 100%;
+    height: 265px;
+    display: flex;
+}
+.about{
+    width: 350px;
+    height: 250px;
+}
+.about ul{
+    padding-top: 45px;
+    font-size: 14px;
+    font-family: Meriva, sans-serif;
+    display: table-cell;
+    color: #0a0b27;
+}
+.about ul li{
+    list-style: none;
+    margin-left: 70px;
+}
+
+.about2{
+    width: 550px;
+    height: 250px;
+    padding-top: 45px;
+    line-height: 15px;
+    font-family: Meriva, sans-serif;
+    font-size: 13px;
+    color: #0a0b27;
+    padding-left: 170px;
+}
+.about2 ul li{
+    list-style: none;
+    line-height: 25px;
+}
+.red:hover{
+    color: red;
+}
+.about3{
+    width: 450px;
+    height: 250px;  
+    padding-top: 50px;
+    font-family: Meriva, sans-serif;
+    font-size: 14px;
+    color: #0a0b27;
+    padding-left: 65px;
+    line-height: 22px;
+}
+.about3 ul li{
+    list-style: none;
+}
+.logoicon{
+    padding-top: 10px; 
+}
+
+
+
+
+
